@@ -1,0 +1,5 @@
+; Вывод таблицы координат полигонов текущего слоя в MS Word
+; Copyright (c) 2000 by Александр Беляев
+
+APPLOAD "c:\ExportToWord.dvb"
+VBARUN "c:\ExportToWord.dvb!Module1.ExportToTheWord"
